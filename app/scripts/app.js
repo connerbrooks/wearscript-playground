@@ -30,4 +30,10 @@ angular.module('wearscriptPlaygroundApp', [
       .otherwise({
         redirectTo: '/'
       });
+  })
+
+  .run(function($log,Socket){
+      Socket = new ReconnectingWebSocket(WSURL + '/ws');
+      //Socket.connect(WSURL + "/ws");
+      HACK_WS = wearScriptConnectionFactory(Socket, function (connected) {console.log('Connected: ' + connected)});
   });
