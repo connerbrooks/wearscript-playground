@@ -5,9 +5,15 @@
     "angular": "1.2.6",
     "angular-resource": "1.2.6",
     "angular-route": "1.2.6",
+    "angular-table": "https://github.com/samu/angular-table.git",
     "angular-ui-ace": "bower",
     "less": "~1.6.1",
-    "msgpack-javascript": "https://github.com/lrvick/msgpack-javascript.git",
-    "reconnecting-websocket": "https://github.com/joewalnes/reconnecting-websocket.git"
+    "wearscript-js": "https://github.com/OpenShades/wearscript-js.git",
+    "msgpack-javascript": "https://github.com/OpenShades/msgpack-javascript.git",
+    "reconnecting-websocket": "https://github.com/joewalnes/reconnecting-websocket.git",
+    "angular-ui-bootstrap": "~0.10.0"
+  },
+  "devDependencies": {
+    "bootstrap": "~3.1.0"
   }
 }
